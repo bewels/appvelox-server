@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавить доктора</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <div class="row" style="padding: 100px;">
+        <form class="col s12" action="/" method="POST">
+          <div class="row">
+          <div class="row">
+            <div class="input-field col s12">
+              <input required id="title" type="text" name="name" class="validate">
+              <label for="title">Имя</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input required id="url" type="text" name="surname" class="validate">
+              <label for="url">Фамилия</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input required id="url" type="text" name="patronymic" class="validate">
+              <label for="url">Отчество</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input required id="url" type="text" name="specialization" class="validate">
+              <label for="url">Должность</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input required id="url" type="text" name="address" class="validate">
+              <label for="url">Адрес</label>
+            </div>
+          </div>
+          <button class="btn" type="submit">Добавить</button>
+        </form>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

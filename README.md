@@ -42,7 +42,7 @@
 
 [Я в ВК](https://vk.com/bewels)
 
-[Я в telegram]()
+[Я в telegram](https://tlgg.ru/bewels_bw)
 
 [Ссылка на проект](https://lit-lake-46564.herokuapp.com/)
 
